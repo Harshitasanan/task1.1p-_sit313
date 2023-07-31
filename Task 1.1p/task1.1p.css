@@ -103,9 +103,14 @@ hr{
 }
 .para h3{
 	height: 50%;
-    display: flex;
-    /* justify-items: center; */
-    align-items: end;
+	display: flex;
+	/* justify-items: center; */
+	align-items: end;
+	padding-left: 20px;
+}
+.para p{
+	width: 30%;
+	padding-left: 20px;
 }
 .project{
 	width: 650px;
