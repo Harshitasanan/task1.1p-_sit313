@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+ul{
+	list-style-type: none;
+	margin: 0;
+	background-color: white;
+	display: flex;
+}
+li a{
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #0dcaf0;
+	color: #ffc107;
+}
+.deakin{
+	padding-top: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+.text{
+	display: none;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(270deg, #FF745C 1%, #9DACFF 99.94%);
+	/* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+	font-size: 20px;
+}
+.main:hover .text {
+	display: flex;
+	 cursor: pointer;
+}
+.profile{
+	width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+.content{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+	background: linear-gradient(269.91deg, #FF745C 0.08%, #9DACFF 99.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.write{
+	bottom: 0;
+	position: absolute;
+	 
+}
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.photos{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Courgette', cursive;
+}
+#scrollToTop { 
+    cursor: pointer;
+}
+.up{
+	width: 5%;
+	float: right;
+	transition: transform 2s;	
+}
+.up:hover{
+	 transform: scale(1.5);
+}
+hr{
+	width: 15%;
+}
+.harley{
+	width: 49%;
+}
+.crash{
+	width: 50%;
+}
+.love{
+	width: 49%;
+}
+.australia{
+	width: 50%;
+}
+.campus{
+	width: 100%;
+}
+@media (max-width: 412px) {
+	.images img {
+		width: 100%;
+	}
+}
+.para h3{
+	height: 50%;
+    display: flex;
+    /* justify-items: center; */
+    align-items: end;
+}
+.project{
+	width: 650px;
+}	
+.main1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.down{
+	display: flex;
+	justify-content: center;
+}
+.steps{
+	
+}
+.step{
+	width: 650px;
+}
+.para1{
+	
+}
